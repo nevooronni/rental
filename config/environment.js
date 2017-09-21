@@ -18,6 +18,16 @@ module.exports = function(environment) {
       }
     },
 
+  // Initialize Firebase
+  firebase: {
+    apiKey: "AIzaSyAEUt4eRI7WRoBV4zLBf03BNPwpjhHHZJs",
+    authDomain: "rental-e760b.firebaseapp.com",
+    databaseURL: "https://rental-e760b.firebaseio.com",
+    projectId: "rental-e760b",
+    storageBucket: "rental-e760b.appspot.com",
+    messagingSenderId: "206977751065"
+  },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
